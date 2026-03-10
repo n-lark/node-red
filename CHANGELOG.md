@@ -1,3 +1,81 @@
+#### 5.0.0-beta.3: Beta Release
+
+ - UX updates for beta 3 (#5498) @knolleary
+ - Update Monaco to latest (0.55.1) (#5508) @Steve-Mcl
+ - Move location of new creds files to be next to flows (if they don't exist already in userdir) (#4951) @dceejay
+
+#### 5.0.0-beta.2: Beta Release
+
+Editor
+
+ - UX updates for next beta (#5444) @knolleary
+
+Nodes
+
+ - Add pause button to debug sidebar (#5390) @dceejay
+ - Add burst mode to delay node (#5391) @dceejay
+ - Add TLS certs/keys from Env Vars (#5376) @hardillb
+
+#### 5.0.0-beta.1: Beta Release
+
+Editor
+
+ - Allow sidebar to be split into two panels (#5378) @knolleary
+
+#### 5.0.0-beta.0: Beta Release
+
+Editor
+
+ - Update Sidebar UX (#5318) @knolleary
+ - Workspace pan/zoom updates (#5312) @knolleary
+ - Fix panning workspace on touchscreens (#5371) @knolleary
+ - Update tour for 5-beta (#5370) @knolleary
+
+Runtime
+
+ - Prep dev branch for beta releases (#5367) @knolleary
+
+Nodes
+
+ - Add ability to use pfx or p12 file for TLS connection settings option (#4907) @dceejay
+
+#### 4.1.7: Maintenance Release
+
+ - Do not block touch events on ports (#5527) @knolleary
+ - Allow palette.categories to be set via theme plugin (#5526) @knolleary
+ - Bump i18next version (#5519) @knolleary
+ - Suppress i18n notice in frontend (#5528) @knolleary
+ - Set showSupportNotice option on i18n (#5520) @knolleary
+ - Do not cache subflow colors as each subflow can have its own (#5518) @knolleary
+ - Update tar/multer deps (#5515) @knolleary
+ - Remove IE7 CSS hacks (#5511) @bonanitech
+ 
+#### 4.1.6: Maintenance Release
+
+ - Allow palette.theme to be set via theme plugin and include icons (#5500) @knolleary
+ - Ensure config sidebar tooltip handles html content (#5501) @knolleary
+ - Allow node-red integrator access to available updates (#5499) @Steve-Mcl
+ - Add frontend pre and post debug message hooks (#5495) @Steve-Mcl
+ - Fix: allow middle-click panning over links and ports (#5496) @lklivingstone
+ - Support ctrl key to select configuration nodes (#5486) @kazuhitoyokoi
+ - Add § as shortcut meta-key (#5482) @gorenje
+ - Update dependencies (#5502) @knolleary
+
+#### 4.1.5: Maintenance Release
+
+ - chore: bump tar to 7.5.7 (#5472) @bryopsida
+ - Update node-red-admin dependency @knolleary
+
+#### 4.1.4: Maintenance Release
+
+ - Update tar dependency @knolleary
+ - Revert overflow fix in editableList (#5467) @knolleary
+ - registry: fix importModule base dir for exports subpaths (#5465) @yuan-cloud
+ - fix: prevent race condition in localfilesystem context store during shutdown (#5462) @Dennis-SEG
+ - fix: prevent double resolve in node close callback (#5461) @Dennis-SEG
+ - fix: prevent incorrect array modification in delay node (#5457) @Dennis-SEG
+ - fix: prevent uncaught exceptions in core node event handlers (#5438) @Dennis-SEG
+
 #### 4.1.3: Maintenance Release
 
 Editor
